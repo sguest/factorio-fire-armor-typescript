@@ -4,9 +4,8 @@
         "lib": ["esnext"],
         "strict": true,
         "baseUrl": ".",
-        "paths": {
-            ".": ["./src"]
-        }
+        "outDir": "dist",
+        "rootDir": "src"
     },
     "tstl": {
         "luaTarget": "JIT"

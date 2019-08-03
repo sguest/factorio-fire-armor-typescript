@@ -1,1 +1,1 @@
-import 'prototypes/item';
+import './prototypes/item';
