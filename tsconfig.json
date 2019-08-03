@@ -2,7 +2,11 @@
     "compilerOptions": {
         "target": "esnext",
         "lib": ["esnext"],
-        "strict": true
+        "strict": true,
+        "baseUrl": ".",
+        "paths": {
+            ".": ["./src"]
+        }
     },
     "tstl": {
         "luaTarget": "JIT"
