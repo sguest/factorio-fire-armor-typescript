@@ -1,0 +1,23 @@
+{
+  "name": "factorio-fire-armor-typescript",
+  "version": "0.0.1",
+  "description": "Fire armor factorio mod with typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tstl -p tsconfig.json --outdir dist",
+    "dev": "tstl -p tsconfig.json --outdir dist --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sguest/factorio-fire-armor-typescript.git"
+  },
+  "author": "Spencer Guest",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sguest/factorio-fire-armor-typescript/issues"
+  },
+  "homepage": "https://github.com/sguest/factorio-fire-armor-typescript#readme",
+  "devDependencies": {
+    "typescript-to-lua": "^0.26.0"
+  }
+}

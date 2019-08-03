@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "lib": ["esnext"],
+        "strict": true
+    },
+    "tstl": {
+        "luaTarget": "JIT"
+    },
+    "include": [
+        "src/**/*.ts"
+    ]
+}
