@@ -21,7 +21,8 @@ interface LuaPlayer extends LuaControl {
 }
 
 interface LuaSurface {
-    create_entity(values: {
+    create_entity(this:void,
+    values: {
         name: string,
         position: Position,
         force: ForceSpecification,
