@@ -4,8 +4,8 @@
   "description": "Fire armor factorio mod with typescript",
   "main": "index.js",
   "scripts": {
-    "build": "tstl -p tsconfig.json --outdir dist",
-    "dev": "tstl -p tsconfig.json --outdir dist --watch"
+    "build": "tstl -p tsconfig.json --outdir dist && cpx public/**/*.* dist",
+    "dev": "concurrently \"tstl -p tsconfig.json --outdir dist --watch\" \"cpx public/**/*.* dist --watch\""
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/sguest/factorio-fire-armor-typescript#readme",
   "devDependencies": {
+    "concurrently": "^4.1.1",
+    "cpx": "^1.5.0",
     "typescript-to-lua": "^0.26.0"
   }
 }
