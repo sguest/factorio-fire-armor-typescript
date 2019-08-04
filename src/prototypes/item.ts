@@ -1,4 +1,3 @@
-/// <reference path="../../factorio.d.ts" />
 export {};
 
 let fireArmor = table.deepcopy(data.raw.armor['heavy-armor']);
