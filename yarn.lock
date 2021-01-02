@@ -2,10 +2,6 @@
 # yarn lockfile v1
 
 
-"@types/factorio@../factorio-types/types-factorio-0.0.1.tgz":
-  version "0.0.1"
-  resolved "../factorio-types/types-factorio-0.0.1.tgz#c1bb37b1d72b1f957372997483097d8267eb2a39"
-
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -476,6 +472,11 @@ extglob@^2.0.4:
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
+
+factorio-types@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/factorio-types/-/factorio-types-0.0.1.tgz#4cb98f4cc4172e428fb2ce3e7bb83aa7e3d5401a"
+  integrity sha512-ngpy3TjvspVSag3qOQk9M+y3Lwe5Nit01H1bZGXbi+m5TP7Vfe6iFfzYmo5qC1GOyfWKB/otPaYE8niqv/N7AA==
 
 filename-regex@^2.0.0:
   version "2.0.1"

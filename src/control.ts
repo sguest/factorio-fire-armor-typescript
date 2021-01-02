@@ -1,3 +1,5 @@
+/// <reference path="../node_modules/factorio-types/index.d.ts" />
+
 export {};
 
 script.on_event(defines.events.on_tick, e => {
