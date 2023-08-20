@@ -6,8 +6,9 @@ let fireArmor = table.deepcopy(data.raw.armor['heavy-armor']);
 fireArmor.name = 'fire-armor';
 fireArmor.icons = [
     {
-        icon: fireArmor.icon,
-        tint: { r: 1, g: 0, b: 0, a: 0.3, }
+        icon: fireArmor.icon!,
+        tint: { r: 1, g: 0, b: 0, a: 0.3, },
+        icon_size: fireArmor.icon_size!,
     },
 ]
 fireArmor.resistances = [
