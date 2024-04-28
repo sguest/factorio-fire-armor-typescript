@@ -1,15 +1,9 @@
 {
+    "extends": "factorio-types/tsconfig.base.json",
     "compilerOptions": {
-        "target": "esnext",
-        "lib": ["esnext"],
-        "strict": true,
         "baseUrl": ".",
         "outDir": "dist",
         "rootDir": "src",
-        "types": ["@typescript-to-lua/language-extensions"]
-    },
-    "tstl": {
-        "luaTarget": "JIT"
     },
     "include": [
         "src/**/*.ts"

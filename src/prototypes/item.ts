@@ -1,14 +1,10 @@
-/// <reference path="../../node_modules/factorio-types/index.d.ts" />
-
-export {};
-
 let fireArmor = table.deepcopy(data.raw.armor['heavy-armor']);
 fireArmor.name = 'fire-armor';
 fireArmor.icons = [
     {
-        icon: fireArmor.icon!,
+        icon: fireArmor.icon,
         tint: { r: 1, g: 0, b: 0, a: 0.3, },
-        icon_size: fireArmor.icon_size!,
+        icon_size: fireArmor.icon_size,
     },
 ]
 fireArmor.resistances = [
