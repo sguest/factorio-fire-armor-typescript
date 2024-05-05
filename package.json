@@ -24,7 +24,7 @@
   "homepage": "https://github.com/sguest/factorio-fire-armor-typescript#readme",
   "devDependencies": {
     "cpx": "^1.5.0",
-    "factorio-types": "1.0.0",
+    "factorio-types": "1.2.0",
     "npm-run-all": "^4.1.5",
     "rimraf": "^2.6.3",
     "typescript": "^5.1.6",

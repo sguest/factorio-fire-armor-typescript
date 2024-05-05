@@ -428,10 +428,10 @@ extglob@^2.0.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-factorio-types@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/factorio-types/-/factorio-types-1.0.0.tgz#0106bf763ae86f937ea9ef30871e6cbbca35f90c"
-  integrity sha512-T2dLCdreFSVHYsigYCm4kmTndTch4xpduCM6ei5o8mS/4shn91vkFvyeAN2biDj3K5KS/5ymjfNy8GFJXP/sqQ==
+factorio-types@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/factorio-types/-/factorio-types-1.2.0.tgz#0b90a149b1dd68ad0217401562a781e0d5f8a756"
+  integrity sha512-B3zDjntRv6IqsElXWbLi2gstiimADRoo6n2ppee9+AXWiUPBy1vKpCYPTV30ewCS1R1qO9HlFwdg6wQrK2MXWg==
   dependencies:
     lua-types "^2.13.1"
 
